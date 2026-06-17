@@ -170,12 +170,12 @@ p {
 }
 
 h1 {
-  max-width: 760px;
+  max-width:860px;
   margin-bottom: 26px;
   color: var(--ink);
-  font-size: clamp(54px, 7.6vw, 108px);
+  font-size:clamp(46px,6.2vw,88px);
   font-weight: 950;
-  line-height: .92;
+  line-height:1;
   letter-spacing: 0;
 }
 
