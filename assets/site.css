@@ -643,3 +643,5 @@ h2 {
 :root{--bg:#f8f8f6;--bg-soft:#f1f1ef;--paper:#fff}body{background:radial-gradient(circle at 12% 8%,rgba(255,255,255,.96),transparent 22rem),linear-gradient(180deg,#f7f7f5 0%,#fff 46%,#f6f6f4 100%)}.topbar{background:rgba(248,248,246,.82)}.contact-chip{position:fixed;right:28px;bottom:22px;z-index:30;justify-content:center;padding:8px 14px;border:1px solid rgba(23,24,26,.08);border-radius:999px;color:transparent;background:rgba(255,255,255,.78);box-shadow:8px 12px 30px rgba(30,32,36,.09);backdrop-filter:blur(18px);font-weight:800}.contact-chip::before{color:var(--ink);content:"\b2f4\b2f9 \b9f9\c900\d638 \d300\c7a5"}
 
 .contact-chip::before{content:"\b2f4\b2f9\20 \b9f9\c900\d638\20 \d300\c7a5"}
+
+.contact-chip::before{content:"\b2f4\b2f9" " " "\b9f9\c900\d638" " " "\d300\c7a5"}
