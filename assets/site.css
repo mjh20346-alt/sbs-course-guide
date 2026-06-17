@@ -648,6 +648,6 @@ h2 {
 
 .contact-chip::before{content:"\00b2f4\00b2f9\000020\00b9f9\00c900\00d638\000020\00d300\00c7a5"}
 
-.topbar .contact-chip{display:none!important}body::after{position:fixed;right:28px;bottom:22px;z-index:30;display:inline-flex;align-items:center;justify-content:center;min-height:30px;padding:8px 14px;border:1px solid rgba(23,24,26,.08);border-radius:999px;color:var(--ink);background:rgba(255,255,255,.78);box-shadow:8px 12px 30px rgba(30,32,36,.09);backdrop-filter:blur(18px);content:"\00b9f9\00c900\00d638\000020\00d300\00c7a5";font-size:13px;font-weight:800;white-space:nowrap}
+.contact-chip{position:fixed!important;top:90vh!important;right:28px!important;bottom:auto!important;z-index:1000!important;display:inline-flex!important;color:transparent!important}.contact-chip::before{color:var(--ink);content:"\00b9f9\00c900\00d638\000020\00d300\00c7a5"!important}
 
 .contact-chip{position:fixed!important;top:auto!important;right:28px!important;bottom:22px!important;z-index:1000!important;display:inline-flex!important;color:transparent!important}.contact-chip::before{color:var(--ink);content:"\00b9f9\00c900\00d638\000020\00d300\00c7a5"!important}
