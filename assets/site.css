@@ -645,3 +645,5 @@ h2 {
 .contact-chip::before{content:"\b2f4\b2f9\20 \b9f9\c900\d638\20 \d300\c7a5"}
 
 .contact-chip::before{content:"\b2f4\b2f9" " " "\b9f9\c900\d638" " " "\d300\c7a5"}
+
+.contact-chip::before{content:"\00b2f4\00b2f9\000020\00b9f9\00c900\00d638\000020\00d300\00c7a5"}
