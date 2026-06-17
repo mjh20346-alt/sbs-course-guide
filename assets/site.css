@@ -665,3 +665,5 @@ h2 {
 .site-footer::before{content:"\00a9  2026 \b9f9\c900\d638  All rights reserved."!important}
 
 .site-footer::before{content:"\0000a9 2026 \00b9f9\00c900\00d638 All rights reserved."!important}
+
+.site-footer::before{content:"\0000a9\0000202026\000020\00b9f9\00c900\00d638\000020All rights reserved."!important}
