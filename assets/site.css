@@ -661,3 +661,5 @@ h2 {
 .nav-links button{border:0;background:transparent;font:inherit;color:inherit;cursor:pointer}.subject-card{display:block;width:100%;text-align:left;font:inherit;cursor:pointer}
 
 .site-footer::before{content:"\00a9\0020 2026\0020 \b9f9\c900\d638\0020 All rights reserved."!important}
+
+.site-footer::before{content:"\00a9  2026 \b9f9\c900\d638  All rights reserved."!important}
