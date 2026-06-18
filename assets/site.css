@@ -688,3 +688,17 @@ body:not(:has(.nav-links>.subject-card)) .hero-panel{display:flex!important;min-
 body:not(:has(.nav-links>.subject-card)) main{display:block!important;max-width:1220px!important;margin:0 auto!important;padding:0 28px 80px!important}
 .site-footer{color:transparent!important}.site-footer::before{content:"Copyright 2026 MJH. All rights reserved."!important;color:var(--muted)!important}
 @media(max-width:760px){body:not(:has(.nav-links>.subject-card)) .nav{display:block!important}body:not(:has(.nav-links>.subject-card)) .nav-links{justify-content:flex-start!important;margin-top:10px!important}body:not(:has(.nav-links>.subject-card)) .hero-inner{grid-template-columns:1fr!important;gap:32px!important;padding-top:62px!important}}
+
+/* force detail pages back to normal */
+body .topbar:has(.nav-links>a[href="#modules"]){position:sticky!important;top:0!important;min-height:auto!important;z-index:20!important;border-bottom:1px solid rgba(37,38,41,.06)!important;background:rgba(248,248,246,.82)!important;backdrop-filter:blur(22px)!important}
+body .topbar:has(.nav-links>a[href="#modules"]) .nav{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:18px!important;max-width:1220px!important;margin:0 auto!important;padding:18px 28px!important}
+body .topbar:has(.nav-links>a[href="#modules"]) .brand{display:flex!important;color:var(--ink)!important;text-decoration:none!important;font-size:14px!important;font-weight:900!important}
+body .topbar:has(.nav-links>a[href="#modules"]) .nav-links{display:flex!important;flex-wrap:wrap!important;justify-content:flex-end!important;gap:18px!important;margin-top:0!important;font-weight:800!important}
+body .topbar:has(.nav-links>a[href="#modules"]) .nav-links::before,body .topbar:has(.nav-links>a[href="#modules"]) .nav-links::after{content:none!important}
+body .topbar:has(.nav-links>a[href="#modules"]) .nav-links>a{display:inline-flex!important;color:var(--ink-soft)!important;text-decoration:none!important;font-size:14px!important;white-space:nowrap!important}
+body:has(.nav-links>a[href="#modules"]) .hero{display:block!important;min-height:72vh!important}
+body:has(.nav-links>a[href="#modules"]) .hero-inner{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(300px,440px)!important;align-items:center!important;gap:64px!important;max-width:1220px!important;margin:0 auto!important;padding:96px 28px 82px!important}
+body:has(.nav-links>a[href="#modules"]) .hero-panel{display:flex!important;min-height:320px!important}
+body:has(.nav-links>a[href="#modules"]) main{display:block!important;max-width:1220px!important;margin:0 auto!important;padding:0 28px 80px!important}
+body:has(.nav-links>a[href="#modules"]) .nav-links::before,body:has(.nav-links>a[href="#modules"]) .nav-links::after{content:none!important}
+@media(max-width:760px){body .topbar:has(.nav-links>a[href="#modules"]) .nav{display:block!important}body .topbar:has(.nav-links>a[href="#modules"]) .nav-links{justify-content:flex-start!important;margin-top:10px!important}body:has(.nav-links>a[href="#modules"]) .hero-inner{grid-template-columns:1fr!important;gap:32px!important;padding-top:62px!important}}
