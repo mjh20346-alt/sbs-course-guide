@@ -5,6 +5,7 @@
 ## 페이지
 
 - `index.html`: 과목 선택 화면
+- `curriculum-roadmap.html`: 전체 커리큘럼 로드맵
 - `practical-excel.html`: 실무엑셀 과정 안내
 
 ## GitHub Pages 게시
