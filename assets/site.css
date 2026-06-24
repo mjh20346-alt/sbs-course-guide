@@ -523,6 +523,14 @@ h2 {
   transition: filter .28s ease;
 }
 
+.module-image.image-fallback {
+  padding: 22px;
+  object-fit: contain;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255, 255, 255, .96), transparent 58%),
+    linear-gradient(145deg, #f8fbfd, #eaf1f6);
+}
+
 @media (hover: hover) {
   .module-card:hover .module-image {
     filter: saturate(1.04) contrast(1.03);
